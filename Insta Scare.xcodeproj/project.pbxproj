@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* HauntedPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HauntedPhoneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		529EE4A41E4F81E700A38A1C /* SndAlert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4931E4F81E700A38A1C /* SndAlert.wav */; };
+		529EE4A51E4F81E700A38A1C /* SndCreepy00.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4941E4F81E700A38A1C /* SndCreepy00.wav */; };
+		529EE4A61E4F81E700A38A1C /* SndCreepy01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4951E4F81E700A38A1C /* SndCreepy01.wav */; };
+		529EE4A71E4F81E700A38A1C /* SndCreepy02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4961E4F81E700A38A1C /* SndCreepy02.wav */; };
+		529EE4A81E4F81E700A38A1C /* SndCreepy03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4971E4F81E700A38A1C /* SndCreepy03.wav */; };
+		529EE4A91E4F81E700A38A1C /* SndCreepy04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4981E4F81E700A38A1C /* SndCreepy04.wav */; };
+		529EE4AA1E4F81E700A38A1C /* SndCreepy05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4991E4F81E700A38A1C /* SndCreepy05.wav */; };
+		529EE4AB1E4F81E700A38A1C /* SndCreepy06.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE49A1E4F81E700A38A1C /* SndCreepy06.wav */; };
+		529EE4AC1E4F81E700A38A1C /* SndCreepy07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE49B1E4F81E700A38A1C /* SndCreepy07.wav */; };
+		529EE4AD1E4F81E700A38A1C /* SndCreepy08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE49C1E4F81E700A38A1C /* SndCreepy08.wav */; };
+		529EE4AE1E4F81E700A38A1C /* SndCreepy09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE49D1E4F81E700A38A1C /* SndCreepy09.wav */; };
+		529EE4AF1E4F81E700A38A1C /* SndCreepy10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE49E1E4F81E700A38A1C /* SndCreepy10.wav */; };
+		529EE4B01E4F81E700A38A1C /* SndCreepy11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE49F1E4F81E700A38A1C /* SndCreepy11.wav */; };
+		529EE4B11E4F81E700A38A1C /* SndCreepy12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4A01E4F81E700A38A1C /* SndCreepy12.wav */; };
+		529EE4B21E4F81E700A38A1C /* SndScare00.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4A11E4F81E700A38A1C /* SndScare00.wav */; };
+		529EE4B31E4F81E700A38A1C /* SndScare01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4A21E4F81E700A38A1C /* SndScare01.wav */; };
+		529EE4B41E4F81E700A38A1C /* SndScare02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4A31E4F81E700A38A1C /* SndScare02.wav */; };
+		529EE4BA1E4F82C100A38A1C /* FrightNight.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4B51E4F82C100A38A1C /* FrightNight.png */; };
+		529EE4BB1E4F82C100A38A1C /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4B61E4F82C100A38A1C /* Home.png */; };
+		529EE4BC1E4F82C100A38A1C /* MotionAndTouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4B71E4F82C100A38A1C /* MotionAndTouch.png */; };
+		529EE4BD1E4F82C100A38A1C /* MsgAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4B81E4F82C100A38A1C /* MsgAlert.png */; };
+		529EE4BE1E4F82C100A38A1C /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4B91E4F82C100A38A1C /* Settings.png */; };
+		529EE4C31E4F83AC00A38A1C /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4BF1E4F83AC00A38A1C /* Background2.png */; };
+		529EE4C41E4F83AC00A38A1C /* bloodyDrips.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4C01E4F83AC00A38A1C /* bloodyDrips.png */; };
+		529EE4C51E4F83AC00A38A1C /* redGlassButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4C11E4F83AC00A38A1C /* redGlassButton.png */; };
+		529EE4C61E4F83AC00A38A1C /* redGlassButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4C21E4F83AC00A38A1C /* redGlassButton2.png */; };
+		529EE4D31E4F83F700A38A1C /* PicSafe00.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4C71E4F83F700A38A1C /* PicSafe00.png */; };
+		529EE4D41E4F83F700A38A1C /* PicSafe01.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4C81E4F83F700A38A1C /* PicSafe01.png */; };
+		529EE4D51E4F83F700A38A1C /* PicScare00.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4C91E4F83F700A38A1C /* PicScare00.png */; };
+		529EE4D61E4F83F700A38A1C /* PicScare01.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4CA1E4F83F700A38A1C /* PicScare01.png */; };
+		529EE4D71E4F83F700A38A1C /* PicScare02.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4CB1E4F83F700A38A1C /* PicScare02.png */; };
+		529EE4D81E4F83F700A38A1C /* PicScare03.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4CC1E4F83F700A38A1C /* PicScare03.png */; };
+		529EE4D91E4F83F700A38A1C /* PicScare04.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4CD1E4F83F700A38A1C /* PicScare04.png */; };
+		529EE4DA1E4F83F700A38A1C /* PicScare05.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4CE1E4F83F700A38A1C /* PicScare05.png */; };
+		529EE4DB1E4F83F700A38A1C /* PicScare06.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4CF1E4F83F700A38A1C /* PicScare06.png */; };
+		529EE4DC1E4F83F700A38A1C /* PicScare07.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4D01E4F83F700A38A1C /* PicScare07.png */; };
+		529EE4DD1E4F83F700A38A1C /* PicScare08.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4D11E4F83F700A38A1C /* PicScare08.png */; };
+		529EE4DE1E4F83F700A38A1C /* PicScare09.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4D21E4F83F700A38A1C /* PicScare09.png */; };
+		529EE4E01E4F841300A38A1C /* Intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 529EE4DF1E4F841300A38A1C /* Intro.png */; };
+		D47D22EC131CF8E9005111AD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47D22EB131CF8E9005111AD /* CoreMotion.framework */; };
+		D4841C7F137F2EA6001792FF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4841C7E137F2EA6001792FF /* Icon.png */; };
+		D485B470131A119600E08B41 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = D485B46F131A119600E08B41 /* Sound.m */; };
+		D485B90213232E2100F30F1D /* FrightNightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D485B90113232E2100F30F1D /* FrightNightViewController.m */; };
+		D485B90613232E8300F30F1D /* FrightNightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D485B90513232E8300F30F1D /* FrightNightView.xib */; };
+		D486F10F1321844100B33C91 /* MotionTouchScareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D486F10E1321844100B33C91 /* MotionTouchScareView.xib */; };
+		D487196013180EE500F41AC6 /* TitleScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D487195F13180EE500F41AC6 /* TitleScreenViewController.m */; };
+		D487196613180F0200F41AC6 /* IMScareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D487196513180F0200F41AC6 /* IMScareViewController.m */; };
+		D487196913180F1600F41AC6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D487196813180F1600F41AC6 /* SettingsViewController.m */; };
+		D487196B13180F4600F41AC6 /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D487196A13180F4600F41AC6 /* TitleView.xib */; };
+		D487196F13180F5D00F41AC6 /* IMScareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D487196E13180F5D00F41AC6 /* IMScareView.xib */; };
+		D487197113180F6800F41AC6 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D487197013180F6800F41AC6 /* SettingsView.xib */; };
+		D488F323131B80AF0073C34D /* Movement.m in Sources */ = {isa = PBXBuildFile; fileRef = D488F322131B80AF0073C34D /* Movement.m */; };
+		D48E4116133BC71200ED3745 /* SwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D48E4115133BC71200ED3745 /* SwitchCell.m */; };
+		D48E411C133BC73900ED3745 /* SliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D48E411B133BC73900ED3745 /* SliderCell.m */; };
+		D48E4120133BC77F00ED3745 /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48E411F133BC77F00ED3745 /* SwitchCell.xib */; };
+		D48E4124133BC78E00ED3745 /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48E4123133BC78E00ED3745 /* SliderCell.xib */; };
+		D48E412A133BD50C00ED3745 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D48E4129133BD50C00ED3745 /* Settings.plist */; };
+		D48E4147133C01C700ED3745 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D48E4146133C01C700ED3745 /* Constants.m */; };
+		D493BAF113199AA500183632 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D493BAF013199AA500183632 /* AVFoundation.framework */; };
+		D494C508131D74500030F254 /* MotionTouchScareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D494C507131D74500030F254 /* MotionTouchScareViewController.m */; };
+		D49DCA51133F0D2900020BCA /* PreviewButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49DCA50133F0D2900020BCA /* PreviewButtonCell.xib */; };
+		D49DCA55133F0EDD00020BCA /* PreviewButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D49DCA54133F0EDD00020BCA /* PreviewButtonCell.m */; };
+		D4AA9F361320147500020C5B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AA9F351320147500020C5B /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HauntedPhoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HauntedPhoneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HauntedPhoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HauntedPhoneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Insta Scare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Scare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Insta Scare_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Insta Scare_Prefix.pch"; sourceTree = "<group>"; };
+		529EE4931E4F81E700A38A1C /* SndAlert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndAlert.wav; path = Resources/Sounds/SndAlert.wav; sourceTree = "<group>"; };
+		529EE4941E4F81E700A38A1C /* SndCreepy00.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy00.wav; path = Resources/Sounds/SndCreepy00.wav; sourceTree = "<group>"; };
+		529EE4951E4F81E700A38A1C /* SndCreepy01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy01.wav; path = Resources/Sounds/SndCreepy01.wav; sourceTree = "<group>"; };
+		529EE4961E4F81E700A38A1C /* SndCreepy02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy02.wav; path = Resources/Sounds/SndCreepy02.wav; sourceTree = "<group>"; };
+		529EE4971E4F81E700A38A1C /* SndCreepy03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy03.wav; path = Resources/Sounds/SndCreepy03.wav; sourceTree = "<group>"; };
+		529EE4981E4F81E700A38A1C /* SndCreepy04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy04.wav; path = Resources/Sounds/SndCreepy04.wav; sourceTree = "<group>"; };
+		529EE4991E4F81E700A38A1C /* SndCreepy05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy05.wav; path = Resources/Sounds/SndCreepy05.wav; sourceTree = "<group>"; };
+		529EE49A1E4F81E700A38A1C /* SndCreepy06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy06.wav; path = Resources/Sounds/SndCreepy06.wav; sourceTree = "<group>"; };
+		529EE49B1E4F81E700A38A1C /* SndCreepy07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy07.wav; path = Resources/Sounds/SndCreepy07.wav; sourceTree = "<group>"; };
+		529EE49C1E4F81E700A38A1C /* SndCreepy08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy08.wav; path = Resources/Sounds/SndCreepy08.wav; sourceTree = "<group>"; };
+		529EE49D1E4F81E700A38A1C /* SndCreepy09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy09.wav; path = Resources/Sounds/SndCreepy09.wav; sourceTree = "<group>"; };
+		529EE49E1E4F81E700A38A1C /* SndCreepy10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy10.wav; path = Resources/Sounds/SndCreepy10.wav; sourceTree = "<group>"; };
+		529EE49F1E4F81E700A38A1C /* SndCreepy11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy11.wav; path = Resources/Sounds/SndCreepy11.wav; sourceTree = "<group>"; };
+		529EE4A01E4F81E700A38A1C /* SndCreepy12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndCreepy12.wav; path = Resources/Sounds/SndCreepy12.wav; sourceTree = "<group>"; };
+		529EE4A11E4F81E700A38A1C /* SndScare00.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndScare00.wav; path = Resources/Sounds/SndScare00.wav; sourceTree = "<group>"; };
+		529EE4A21E4F81E700A38A1C /* SndScare01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndScare01.wav; path = Resources/Sounds/SndScare01.wav; sourceTree = "<group>"; };
+		529EE4A31E4F81E700A38A1C /* SndScare02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SndScare02.wav; path = Resources/Sounds/SndScare02.wav; sourceTree = "<group>"; };
+		529EE4B51E4F82C100A38A1C /* FrightNight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FrightNight.png; path = Resources/UI/FrightNight.png; sourceTree = "<group>"; };
+		529EE4B61E4F82C100A38A1C /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = Resources/UI/Home.png; sourceTree = "<group>"; };
+		529EE4B71E4F82C100A38A1C /* MotionAndTouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MotionAndTouch.png; path = Resources/UI/MotionAndTouch.png; sourceTree = "<group>"; };
+		529EE4B81E4F82C100A38A1C /* MsgAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MsgAlert.png; path = Resources/UI/MsgAlert.png; sourceTree = "<group>"; };
+		529EE4B91E4F82C100A38A1C /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Resources/UI/Settings.png; sourceTree = "<group>"; };
+		529EE4BF1E4F83AC00A38A1C /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background2.png; path = Resources/UI/Background2.png; sourceTree = "<group>"; };
+		529EE4C01E4F83AC00A38A1C /* bloodyDrips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bloodyDrips.png; path = Resources/UI/bloodyDrips.png; sourceTree = "<group>"; };
+		529EE4C11E4F83AC00A38A1C /* redGlassButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redGlassButton.png; path = Resources/UI/redGlassButton.png; sourceTree = "<group>"; };
+		529EE4C21E4F83AC00A38A1C /* redGlassButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redGlassButton2.png; path = Resources/UI/redGlassButton2.png; sourceTree = "<group>"; };
+		529EE4C71E4F83F700A38A1C /* PicSafe00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicSafe00.png; path = Resources/Images/PicSafe00.png; sourceTree = "<group>"; };
+		529EE4C81E4F83F700A38A1C /* PicSafe01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicSafe01.png; path = Resources/Images/PicSafe01.png; sourceTree = "<group>"; };
+		529EE4C91E4F83F700A38A1C /* PicScare00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare00.png; path = Resources/Images/PicScare00.png; sourceTree = "<group>"; };
+		529EE4CA1E4F83F700A38A1C /* PicScare01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare01.png; path = Resources/Images/PicScare01.png; sourceTree = "<group>"; };
+		529EE4CB1E4F83F700A38A1C /* PicScare02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare02.png; path = Resources/Images/PicScare02.png; sourceTree = "<group>"; };
+		529EE4CC1E4F83F700A38A1C /* PicScare03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare03.png; path = Resources/Images/PicScare03.png; sourceTree = "<group>"; };
+		529EE4CD1E4F83F700A38A1C /* PicScare04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare04.png; path = Resources/Images/PicScare04.png; sourceTree = "<group>"; };
+		529EE4CE1E4F83F700A38A1C /* PicScare05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare05.png; path = Resources/Images/PicScare05.png; sourceTree = "<group>"; };
+		529EE4CF1E4F83F700A38A1C /* PicScare06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare06.png; path = Resources/Images/PicScare06.png; sourceTree = "<group>"; };
+		529EE4D01E4F83F700A38A1C /* PicScare07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare07.png; path = Resources/Images/PicScare07.png; sourceTree = "<group>"; };
+		529EE4D11E4F83F700A38A1C /* PicScare08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare08.png; path = Resources/Images/PicScare08.png; sourceTree = "<group>"; };
+		529EE4D21E4F83F700A38A1C /* PicScare09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicScare09.png; path = Resources/Images/PicScare09.png; sourceTree = "<group>"; };
+		529EE4DF1E4F841300A38A1C /* Intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Intro.png; path = Resources/UI/Intro.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Insta Scare-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Insta Scare-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D47D22EB131CF8E9005111AD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D4841C7E137F2EA6001792FF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D485B46E131A119600E08B41 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		D485B46F131A119600E08B41 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		D485B90013232E2100F30F1D /* FrightNightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrightNightViewController.h; sourceTree = "<group>"; };
+		D485B90113232E2100F30F1D /* FrightNightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrightNightViewController.m; sourceTree = "<group>"; };
+		D485B90513232E8300F30F1D /* FrightNightView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FrightNightView.xib; sourceTree = "<group>"; };
+		D486F10E1321844100B33C91 /* MotionTouchScareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MotionTouchScareView.xib; sourceTree = "<group>"; };
+		D487195E13180EE500F41AC6 /* TitleScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScreenViewController.h; sourceTree = "<group>"; };
+		D487195F13180EE500F41AC6 /* TitleScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScreenViewController.m; sourceTree = "<group>"; };
+		D487196413180F0200F41AC6 /* IMScareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMScareViewController.h; sourceTree = "<group>"; };
+		D487196513180F0200F41AC6 /* IMScareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMScareViewController.m; sourceTree = "<group>"; };
+		D487196713180F1600F41AC6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D487196813180F1600F41AC6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D487196A13180F4600F41AC6 /* TitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
+		D487196E13180F5D00F41AC6 /* IMScareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMScareView.xib; sourceTree = "<group>"; };
+		D487197013180F6800F41AC6 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		D488F321131B80AF0073C34D /* Movement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movement.h; sourceTree = "<group>"; };
+		D488F322131B80AF0073C34D /* Movement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movement.m; sourceTree = "<group>"; };
+		D48E4114133BC71200ED3745 /* SwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchCell.h; sourceTree = "<group>"; };
+		D48E4115133BC71200ED3745 /* SwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchCell.m; sourceTree = "<group>"; };
+		D48E411A133BC73900ED3745 /* SliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderCell.h; sourceTree = "<group>"; };
+		D48E411B133BC73900ED3745 /* SliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderCell.m; sourceTree = "<group>"; };
+		D48E411F133BC77F00ED3745 /* SwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		D48E4123133BC78E00ED3745 /* SliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		D48E4129133BD50C00ED3745 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		D48E4145133C01C700ED3745 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D48E4146133C01C700ED3745 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		D493BAF013199AA500183632 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D494C506131D74500030F254 /* MotionTouchScareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionTouchScareViewController.h; sourceTree = "<group>"; };
+		D494C507131D74500030F254 /* MotionTouchScareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionTouchScareViewController.m; sourceTree = "<group>"; };
+		D49DCA50133F0D2900020BCA /* PreviewButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewButtonCell.xib; sourceTree = "<group>"; };
+		D49DCA53133F0EDD00020BCA /* PreviewButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewButtonCell.h; sourceTree = "<group>"; };
+		D49DCA54133F0EDD00020BCA /* PreviewButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewButtonCell.m; sourceTree = "<group>"; };
+		D4AA9F351320147500020C5B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				D493BAF113199AA500183632 /* AVFoundation.framework in Frameworks */,
+				D47D22EC131CF8E9005111AD /* CoreMotion.framework in Frameworks */,
+				D4AA9F361320147500020C5B /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* HauntedPhoneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HauntedPhoneAppDelegate.m */,
+				D487195E13180EE500F41AC6 /* TitleScreenViewController.h */,
+				D487195F13180EE500F41AC6 /* TitleScreenViewController.m */,
+				D494C506131D74500030F254 /* MotionTouchScareViewController.h */,
+				D494C507131D74500030F254 /* MotionTouchScareViewController.m */,
+				D487196413180F0200F41AC6 /* IMScareViewController.h */,
+				D487196513180F0200F41AC6 /* IMScareViewController.m */,
+				D485B90013232E2100F30F1D /* FrightNightViewController.h */,
+				D485B90113232E2100F30F1D /* FrightNightViewController.m */,
+				D487196713180F1600F41AC6 /* SettingsViewController.h */,
+				D487196813180F1600F41AC6 /* SettingsViewController.m */,
+				D48E4145133C01C700ED3745 /* Constants.h */,
+				D48E4146133C01C700ED3745 /* Constants.m */,
+				D485B46E131A119600E08B41 /* Sound.h */,
+				D485B46F131A119600E08B41 /* Sound.m */,
+				D488F321131B80AF0073C34D /* Movement.h */,
+				D488F322131B80AF0073C34D /* Movement.m */,
+				D48E4114133BC71200ED3745 /* SwitchCell.h */,
+				D48E4115133BC71200ED3745 /* SwitchCell.m */,
+				D48E411A133BC73900ED3745 /* SliderCell.h */,
+				D48E411B133BC73900ED3745 /* SliderCell.m */,
+				D49DCA53133F0EDD00020BCA /* PreviewButtonCell.h */,
+				D49DCA54133F0EDD00020BCA /* PreviewButtonCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Insta Scare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Insta Scare_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D48115D01323E86A00F36ECF /* UI */,
+				D487198213185BEE00F41AC6 /* Sounds */,
+				D487198113185BE800F41AC6 /* Images */,
+				8D1107310486CEB800E47090 /* Insta Scare-Info.plist */,
+				D48E4129133BD50C00ED3745 /* Settings.plist */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				D487196A13180F4600F41AC6 /* TitleView.xib */,
+				D486F10E1321844100B33C91 /* MotionTouchScareView.xib */,
+				D487196E13180F5D00F41AC6 /* IMScareView.xib */,
+				D485B90513232E8300F30F1D /* FrightNightView.xib */,
+				D487197013180F6800F41AC6 /* SettingsView.xib */,
+				D48E411F133BC77F00ED3745 /* SwitchCell.xib */,
+				D48E4123133BC78E00ED3745 /* SliderCell.xib */,
+				D49DCA50133F0D2900020BCA /* PreviewButtonCell.xib */,
+				D4841C7E137F2EA6001792FF /* Icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				D493BAF013199AA500183632 /* AVFoundation.framework */,
+				D47D22EB131CF8E9005111AD /* CoreMotion.framework */,
+				D4AA9F351320147500020C5B /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48115D01323E86A00F36ECF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				529EE4DF1E4F841300A38A1C /* Intro.png */,
+				529EE4BF1E4F83AC00A38A1C /* Background2.png */,
+				529EE4C01E4F83AC00A38A1C /* bloodyDrips.png */,
+				529EE4C11E4F83AC00A38A1C /* redGlassButton.png */,
+				529EE4C21E4F83AC00A38A1C /* redGlassButton2.png */,
+				529EE4B51E4F82C100A38A1C /* FrightNight.png */,
+				529EE4B61E4F82C100A38A1C /* Home.png */,
+				529EE4B71E4F82C100A38A1C /* MotionAndTouch.png */,
+				529EE4B81E4F82C100A38A1C /* MsgAlert.png */,
+				529EE4B91E4F82C100A38A1C /* Settings.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D487198113185BE800F41AC6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				529EE4C71E4F83F700A38A1C /* PicSafe00.png */,
+				529EE4C81E4F83F700A38A1C /* PicSafe01.png */,
+				529EE4C91E4F83F700A38A1C /* PicScare00.png */,
+				529EE4CA1E4F83F700A38A1C /* PicScare01.png */,
+				529EE4CB1E4F83F700A38A1C /* PicScare02.png */,
+				529EE4CC1E4F83F700A38A1C /* PicScare03.png */,
+				529EE4CD1E4F83F700A38A1C /* PicScare04.png */,
+				529EE4CE1E4F83F700A38A1C /* PicScare05.png */,
+				529EE4CF1E4F83F700A38A1C /* PicScare06.png */,
+				529EE4D01E4F83F700A38A1C /* PicScare07.png */,
+				529EE4D11E4F83F700A38A1C /* PicScare08.png */,
+				529EE4D21E4F83F700A38A1C /* PicScare09.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D487198213185BEE00F41AC6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				529EE4931E4F81E700A38A1C /* SndAlert.wav */,
+				529EE4941E4F81E700A38A1C /* SndCreepy00.wav */,
+				529EE4951E4F81E700A38A1C /* SndCreepy01.wav */,
+				529EE4961E4F81E700A38A1C /* SndCreepy02.wav */,
+				529EE4971E4F81E700A38A1C /* SndCreepy03.wav */,
+				529EE4981E4F81E700A38A1C /* SndCreepy04.wav */,
+				529EE4991E4F81E700A38A1C /* SndCreepy05.wav */,
+				529EE49A1E4F81E700A38A1C /* SndCreepy06.wav */,
+				529EE49B1E4F81E700A38A1C /* SndCreepy07.wav */,
+				529EE49C1E4F81E700A38A1C /* SndCreepy08.wav */,
+				529EE49D1E4F81E700A38A1C /* SndCreepy09.wav */,
+				529EE49E1E4F81E700A38A1C /* SndCreepy10.wav */,
+				529EE49F1E4F81E700A38A1C /* SndCreepy11.wav */,
+				529EE4A01E4F81E700A38A1C /* SndCreepy12.wav */,
+				529EE4A11E4F81E700A38A1C /* SndScare00.wav */,
+				529EE4A21E4F81E700A38A1C /* SndScare01.wav */,
+				529EE4A31E4F81E700A38A1C /* SndScare02.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Insta Scare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Insta Scare" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Insta Scare";
+			productName = HauntedPhone;
+			productReference = 1D6058910D05DD3D006BFB54 /* Insta Scare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Insta Scare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Insta Scare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				D487196B13180F4600F41AC6 /* TitleView.xib in Resources */,
+				D487196F13180F5D00F41AC6 /* IMScareView.xib in Resources */,
+				D487197113180F6800F41AC6 /* SettingsView.xib in Resources */,
+				D486F10F1321844100B33C91 /* MotionTouchScareView.xib in Resources */,
+				D485B90613232E8300F30F1D /* FrightNightView.xib in Resources */,
+				D48E4120133BC77F00ED3745 /* SwitchCell.xib in Resources */,
+				D48E4124133BC78E00ED3745 /* SliderCell.xib in Resources */,
+				D48E412A133BD50C00ED3745 /* Settings.plist in Resources */,
+				D49DCA51133F0D2900020BCA /* PreviewButtonCell.xib in Resources */,
+				D4841C7F137F2EA6001792FF /* Icon.png in Resources */,
+				529EE4A41E4F81E700A38A1C /* SndAlert.wav in Resources */,
+				529EE4A51E4F81E700A38A1C /* SndCreepy00.wav in Resources */,
+				529EE4A61E4F81E700A38A1C /* SndCreepy01.wav in Resources */,
+				529EE4A71E4F81E700A38A1C /* SndCreepy02.wav in Resources */,
+				529EE4A81E4F81E700A38A1C /* SndCreepy03.wav in Resources */,
+				529EE4A91E4F81E700A38A1C /* SndCreepy04.wav in Resources */,
+				529EE4AA1E4F81E700A38A1C /* SndCreepy05.wav in Resources */,
+				529EE4AB1E4F81E700A38A1C /* SndCreepy06.wav in Resources */,
+				529EE4AC1E4F81E700A38A1C /* SndCreepy07.wav in Resources */,
+				529EE4AD1E4F81E700A38A1C /* SndCreepy08.wav in Resources */,
+				529EE4AE1E4F81E700A38A1C /* SndCreepy09.wav in Resources */,
+				529EE4AF1E4F81E700A38A1C /* SndCreepy10.wav in Resources */,
+				529EE4B01E4F81E700A38A1C /* SndCreepy11.wav in Resources */,
+				529EE4B11E4F81E700A38A1C /* SndCreepy12.wav in Resources */,
+				529EE4B21E4F81E700A38A1C /* SndScare00.wav in Resources */,
+				529EE4B31E4F81E700A38A1C /* SndScare01.wav in Resources */,
+				529EE4B41E4F81E700A38A1C /* SndScare02.wav in Resources */,
+				529EE4BA1E4F82C100A38A1C /* FrightNight.png in Resources */,
+				529EE4BB1E4F82C100A38A1C /* Home.png in Resources */,
+				529EE4BC1E4F82C100A38A1C /* MotionAndTouch.png in Resources */,
+				529EE4BD1E4F82C100A38A1C /* MsgAlert.png in Resources */,
+				529EE4BE1E4F82C100A38A1C /* Settings.png in Resources */,
+				529EE4C31E4F83AC00A38A1C /* Background2.png in Resources */,
+				529EE4C41E4F83AC00A38A1C /* bloodyDrips.png in Resources */,
+				529EE4C51E4F83AC00A38A1C /* redGlassButton.png in Resources */,
+				529EE4C61E4F83AC00A38A1C /* redGlassButton2.png in Resources */,
+				529EE4D31E4F83F700A38A1C /* PicSafe00.png in Resources */,
+				529EE4D41E4F83F700A38A1C /* PicSafe01.png in Resources */,
+				529EE4D51E4F83F700A38A1C /* PicScare00.png in Resources */,
+				529EE4D61E4F83F700A38A1C /* PicScare01.png in Resources */,
+				529EE4D71E4F83F700A38A1C /* PicScare02.png in Resources */,
+				529EE4D81E4F83F700A38A1C /* PicScare03.png in Resources */,
+				529EE4D91E4F83F700A38A1C /* PicScare04.png in Resources */,
+				529EE4DA1E4F83F700A38A1C /* PicScare05.png in Resources */,
+				529EE4DB1E4F83F700A38A1C /* PicScare06.png in Resources */,
+				529EE4DC1E4F83F700A38A1C /* PicScare07.png in Resources */,
+				529EE4DD1E4F83F700A38A1C /* PicScare08.png in Resources */,
+				529EE4DE1E4F83F700A38A1C /* PicScare09.png in Resources */,
+				529EE4E01E4F841300A38A1C /* Intro.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HauntedPhoneAppDelegate.m in Sources */,
+				D487196013180EE500F41AC6 /* TitleScreenViewController.m in Sources */,
+				D487196613180F0200F41AC6 /* IMScareViewController.m in Sources */,
+				D487196913180F1600F41AC6 /* SettingsViewController.m in Sources */,
+				D485B470131A119600E08B41 /* Sound.m in Sources */,
+				D488F323131B80AF0073C34D /* Movement.m in Sources */,
+				D494C508131D74500030F254 /* MotionTouchScareViewController.m in Sources */,
+				D485B90213232E2100F30F1D /* FrightNightViewController.m in Sources */,
+				D48E4116133BC71200ED3745 /* SwitchCell.m in Sources */,
+				D48E411C133BC73900ED3745 /* SliderCell.m in Sources */,
+				D48E4147133C01C700ED3745 /* Constants.m in Sources */,
+				D49DCA55133F0EDD00020BCA /* PreviewButtonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Robert Feddeler (E8J9642WY8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert Feddeler (E8J9642WY8)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insta Scare_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Insta Scare-Info.plist";
+				PRODUCT_NAME = "Insta Scare";
+				PROVISIONING_PROFILE = "A78A4EC6-7B3C-4436-B830-1CCB9880FF5A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A78A4EC6-7B3C-4436-B830-1CCB9880FF5A";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Robert Feddeler (E8J9642WY8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert Feddeler (E8J9642WY8)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insta Scare_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Insta Scare-Info.plist";
+				PRODUCT_NAME = "Insta Scare";
+				PROVISIONING_PROFILE = "A78A4EC6-7B3C-4436-B830-1CCB9880FF5A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A78A4EC6-7B3C-4436-B830-1CCB9880FF5A";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D48C04F41387231600BF0698 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		D48C04F51387231600BF0698 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Robert Feddeler";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Robert Feddeler";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insta Scare_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Insta Scare-Info.plist";
+				PRODUCT_NAME = "Insta Scare";
+				PROVISIONING_PROFILE = "9FA8283C-92CC-424F-B893-DCAA1BE695EE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9FA8283C-92CC-424F-B893-DCAA1BE695EE";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Insta Scare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				D48C04F51387231600BF0698 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Insta Scare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				D48C04F41387231600BF0698 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
